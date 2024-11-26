@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Yuvraj's Portfolio Website">
+    <title>Yuvraj's Portfolio</title>
+    <style>
+        /* General styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 1rem 0;
+        }
+
+        header nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        header nav ul li {
+            display: inline;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        header nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Section styling */
+        .section {
+            padding: 4rem 1rem;
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        /* About Section */
+        #about {
+            background-color: #fff;
+        }
+
+        #about h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        #about p {
+            font-size: 1.2rem;
+        }
+
+        /* Projects Section */
+        #projects {
+            background-color: #e2e2e2;
+        }
+
+        #projects .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .project {
+            background-color: white;
+            padding: 1rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .project:hover {
+            transform: translateY(-10px);
+        }
+
+        .project h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .project p {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        /* Skills Section */
+        #skills {
+            background-color: #fff;
+        }
+
+        #skills ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        #skills ul li {
+            font-size: 1.2rem;
+        }
+
+        /* Contact Section */
+        #contact {
+            background-color: #e2e2e2;
+        }
+
+        #contact p {
+            font-size: 1.2rem;
+        }
+
+        #contact a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        #contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h1>About Me</h1>
+            <p>Hi, I'm Yuvraj. I am a passionate clous engineer with experience in creating beautiful,
+                 user-friendly platform.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h1>Projects</h1>
+            <div class="projects-grid">
+                <div class="project">
+                    <h2>projects</h2>
+                    <p>Automation with the help of terraform.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h1>Skills</h1>
+            <ul>
+                <li>AWS</li>
+                <li>TERRAFORM</li>
+                <li>DOCKER</li>
+                <li>JENKINS</li>
+                <li>OS</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h1>Contact: null</h1>
+            <p>Email: yuvrajtiwari017@gmail.com</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Yuvraj. All rights reserved.</p>
+    </footer>
+</body>
+</html>
